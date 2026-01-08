@@ -1,0 +1,10 @@
+[project]
+authors = ["Amund Tveit"]
+channels = ["conda-forge", "https://conda.modular.com/max-nightly"]
+description = "High-performance SmallVec for Mojo - eliminates allocation overhead"
+name = "mojo-vec"
+platforms = ["osx-arm64", "linux-64"]
+version = "0.1.0"
+
+[dependencies]
+max = ">=25.1.0.dev2025010805,<26"
